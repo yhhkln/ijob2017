@@ -3,9 +3,11 @@
 <%= f.input :title %>
 <%= f.input :description %>
 
-<%= f.input :wage_lower_bound, :label => "xwxm"%>
+<%= f.input :wage_upper_bound, :label => "xwxm"%>
 <%= f.input :wage_lower_bound, :label => "ugxm"%>
 <%= f.input :contact_email %>
+
+<%= f.input :is_hidden %>
 
 <%= f.submit "submit"%>
 <% end %>
