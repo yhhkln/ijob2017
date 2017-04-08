@@ -2,5 +2,10 @@
 <%= simple_form_for [:admin,@job] do |f| %>
 <%= f.input :title %>
 <%= f.input :description %>
-<%= f.submit "submit" %>
+
+<%= f.input :wage_lower_bound, :label => "xwxm"%>
+<%= f.input :wage_lower_bound, :label => "ugxm"%>
+<%= f.input :contact_email %>
+
+<%= f.submit "submit"%>
 <% end %>
