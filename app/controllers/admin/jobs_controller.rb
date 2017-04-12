@@ -8,7 +8,7 @@ class Admin::JobsController < ApplicationController
   end
 
   def index
-    @jobs = Job.where(:is_hidden => false).order("created_at DESC")
+    @jobs = Job.all
   end
 
   def new
@@ -47,6 +47,17 @@ class Admin::JobsController < ApplicationController
     redirect_to admin_jobs_path
   end
 
+  def publish
+    @job = Job.find(params[:id])
+    @job.publish!
+    redirect_to :back
+  end
+
+  def hide
+    @job = Job.find(params[:id])
+    @job.hide!
+    redirect_to :back
+  end
 
   private
 
