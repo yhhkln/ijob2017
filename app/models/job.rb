@@ -15,7 +15,9 @@ class Job < ApplicationRecord
     self.save
   end
 
-  scope :recent, -> { oredr('created_at DESC')}
+  scope :recent, -> { order('created_at DESC')}
   scope :published, -> {where(is_hidden:false)}
+
+  has_many :resumes
 
 end
