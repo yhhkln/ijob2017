@@ -14,4 +14,8 @@ class Job < ApplicationRecord
     self.is_hidden = true
     self.save
   end
+
+  scope :recent, -> { oredr('created_at DESC')}
+  scope :published, -> {where(is_hidden:false)}
+
 end
