@@ -4,6 +4,57 @@
 
 
 
+
+//左图 右图 左图
+.img-responsive {
+    display: block;
+    max-width: 100%;//图片上边距10
+    height: auto;
+    margin:10px;
+}
+
+.content-section-a { //图右
+  border-radius: 20;//圆角
+    margin:0px -15px;//左右-15 满屏
+    padding: 50px -15px;
+    background-color: #FFFDE7;//背景色白
+  }
+.content-section-b { //图左
+    border-radius: 20;//圆角
+  margin:0px -15px;//左右-15 满屏
+  background-color: #FFFDE7;
+    padding: 50px -15px;
+    border-top: 1px solid #FFFDE7;
+
+}
+
+.section-heading-spacer {
+    float: right;
+    width: 200px;
+    border-top: 3px solid #FFFDE7;
+}
+
+.section-heading {//标题
+    margin:60px 0px 20px 0px;
+    color:#FF3D00;
+    text-align:center!important;
+}
+
+.lead {//字
+    font-size: 18px;
+    font-weight: 900!important;
+    font-size: 20px!important;
+    color:#00E5FF!important;
+    text-align:center!important;
+  }
+
+
+
+//
+
+
+
+
 .bs-slider{
     overflow: hidden;
     max-height: 700px;
@@ -24,7 +75,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.40);
+    background-color: rgba(0, 0, 0, 0.20);
 }
 .bs-slider > .carousel-inner > .item > img,
 .bs-slider > .carousel-inner > .item > a > img {
@@ -216,7 +267,7 @@
 .slide-text > h1 {
 
     padding: 0;
-    color: #ffffff;
+    color: #FF3D00;
     font-size: 100px!important;
     line-height: 84px;
     margin-bottom: 30px;
@@ -229,7 +280,7 @@
 
 .slide-text > p {
     padding: 0;
-    color: #ffffff;
+    color: #FFFDE7;
     font-size: 50px!important;
     line-height: 48px;
     font-weight: 500;
@@ -239,7 +290,7 @@
     animation-delay: 1.1s;
 }
 .slide-text > a.btn-default{
-    color: #ffffff;
+    color: #FFFDE7;
     font-weight: 400;
     font-size: 30px;
     line-height: 15px;
@@ -259,7 +310,7 @@
 
 }
 .slide-text > a.btn-primary{
-    color: #ffffff;
+    color: #FFFDE7;
     cursor: pointer;
     font-weight: 400;
     font-size: 30px;
@@ -281,8 +332,8 @@
 }
 .slide-text > a:hover,
 .slide-text > a:active {
-    color: #ffffff;
-    background: #222222;
+    color: #03A9F4;
+    background: #FFFDE7;
     -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }

@@ -79,11 +79,28 @@
 }
 
 .thumbnail {
+  //  background-color: #FFFDE7;
     border: 0 none;
     box-shadow: none;
-    margin-top: 60px;
+    margin-top: 0px -15px 0px;
 }
 
+//三张图去边框
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.42857143;
+
+    border: 0px solid #ddd!important;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+//美化后台
 .custab{
   border: 1px solid #ccc;
 
@@ -100,9 +117,9 @@
 }
 //导航栏颜色
  .navbar-default {
-     background-color: #212121;  //背景颜色
+     background-color: #FFFDE7;  //背景颜色
 
-     border-color: #212121; //边框色
+     border-color: #FFFDE7; //边框色
 
      margin-bottom: 0; //底部 margin 不撑开距离
  }
@@ -115,7 +132,8 @@
 //修改 login logout字体颜色和对齐样式
 
    .navbar-default .navbar-brand {
-     color:#EF6C00; //字体颜色
+     color:#00E5FF; //字体颜色
+     font-size: 30px;
 
      padding: 10px 15px; //上下10px，左右15px
      line-height: 30px; //文字行高
@@ -123,21 +141,23 @@
 
    .navbar-default .navbar-brand:hover,
    .navbar-default .navbar-brand:focus {
-     color: #FF6F00; //鼠标放置在链接上的文字颜色
+     color: #FF3D00; //鼠标放置在链接上的文字颜色
 
      background-color: transparent; //鼠标放置在链接上的背景颜色，这里设为透明
    }
 
-//   修改导航栏链接颜色
+//   修改导航注册登入链接颜色
 
 
     .navbar-default .navbar-nav > li > a{
-   color: #EF6C00;//本来颜色
+   color: #00E5FF;//本来颜色
+   font-size: 20px;
+
  }
 
  .navbar-default .navbar-nav > li > a:hover,
  .navbar-default .navbar-nav > li > a:focus {
-   color: #FF6F00; //变色
+   color: #FF3D00; //变色
 
    background-color: transparent;
  }
@@ -166,6 +186,20 @@
    border-radius: 0;//圆角为0
  }
 
+
+.foot{//页脚
+  background-color: #FFFDE7;  //背景颜色
+  margin:0 -15px ;//左右顶格
+  padding:20px 0px 50px;
+
+
+}
+
+
+
+
+
+
 //danger button
  .btn-danger {
      color: #fff;//字体颜色
@@ -185,7 +219,7 @@
 
  //default button
   .btn-default {
-      color: #fff;//字体颜色
+      color: #FFFDE7;//字体颜色
 
       background-color: #EF6C00;//背景颜色
 
@@ -194,7 +228,7 @@
   }
 
   .btn-default:hover {
-      background-color: #E65100;//鼠标放置在btn上的背景颜色
+      background-color: #FFFDE7;//鼠标放置在btn上的背景颜色
 
       border-color: #E65100;//鼠标放置在btn上的边框颜色
 
