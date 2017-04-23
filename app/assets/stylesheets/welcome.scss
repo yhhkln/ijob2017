@@ -6,7 +6,6 @@
 .bj{
 width: 100%; /*铺满*/
 height: 100%;
-margin : 0px -15px 0px 0px;
 background-color:  #FFFDE7;
 }
 
@@ -107,64 +106,18 @@ background-color:  #FFFDE7;
       height: auto;
   }
 
-  //送键盘
-  .style{
+  //送mac
+.dibusongmac{}
+.dibusongmactext {
+    text-align: center;
+}
+.dibusongmacimage{
+  text-align:center!important;
+      margin: 0 25% ; /*水平居中*/
+      max-width: 50%;
+      height: auto;
 
-  }
-  .page-index .cherry {
-      text-align: center;
-  }
-
-  .page-index *, .page-index :after, .page-index :before {
-      box-sizing: border-box;
-  }
-
-  a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font: inherit;
-      vertical-align: baseline;
-  }
-  //文字部分
-
-  .style{
-
-  }
-      .page-index .cherry .hr-title {
-          margin-top: -10px;
-          margin-bottom: 70px;
-      }
-
-      .page-index .hr-title {
-          width: 100%;
-          margin-top: 80px;
-          margin-bottom: 40px;
-          text-align: center;
-      }
-
-      .page-index *, .page-index :after, .page-index :before {
-          box-sizing: border-box;
-      }
-
-      a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-          margin: 0;
-          padding: 0;
-          border: 0;
-          font: inherit;
-          vertical-align: baseline;
-      }
-
-
-  //图片部分
-
-  .dibusongmac
-
-  {
-    background: #FFFDE7;
-    background-size: cover;
-    padding-bottom: 110px;
-  }
+}
 
 
 //不知道是啥
