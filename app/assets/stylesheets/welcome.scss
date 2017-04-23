@@ -3,7 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
+.bj{
+width: 100%; /*铺满*/
+height: 100%;
+margin : 0px -15px 0px 0px;
+background-color:  #FFFDE7;
+}
 
 //左图 右图 左图
 .img-responsive {
@@ -17,7 +22,7 @@
   border-radius: 20;//圆角
     margin:0px -15px;//左右-15 满屏
     padding: 50px -15px;
-    background-color: #FFFDE7;//背景色白
+   background-color: #FFFDE7;//背景色白
   }
 .content-section-b { //图左
     border-radius: 20;//圆角
@@ -49,8 +54,120 @@
   }
 
 
+//三张icon
+  .caption {
+    margin: 30px;
+    text-align: center;
+    top: 20px;
+  }
+  .container-fluid {
+    margin-right: -15px!important;
+    margin-left:-15px!important;
+    background-color: #FFFDE7;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #FFFDE7;
+}
+  .thumbnail {
+    background-color: #FFFDE7!important;
+      border: 0 none;
+      box-shadow: none;
+      border: 0px!important;
+  }
+.col-sm-4{
+  background-color: #FFFDE7;
 
-//
+}
+  //三张图去边框
+  .thumbnail > img,
+  .thumbnail a > img {
+    background: #FFFDE7!important;
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .img-thumbnail {
+      padding: 4px;
+      line-height: 1.42857143;
+      background: #FFFDE7!important;
+      border: 0px solid #ddd!important;
+      border-radius: 4px;
+      -webkit-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+  }
+
+  //送键盘
+  .style{
+
+  }
+  .page-index .cherry {
+      text-align: center;
+  }
+
+  .page-index *, .page-index :after, .page-index :before {
+      box-sizing: border-box;
+  }
+
+  a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  //文字部分
+
+  .style{
+
+  }
+      .page-index .cherry .hr-title {
+          margin-top: -10px;
+          margin-bottom: 70px;
+      }
+
+      .page-index .hr-title {
+          width: 100%;
+          margin-top: 80px;
+          margin-bottom: 40px;
+          text-align: center;
+      }
+
+      .page-index *, .page-index :after, .page-index :before {
+          box-sizing: border-box;
+      }
+
+      a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          vertical-align: baseline;
+      }
+
+
+  //图片部分
+
+  .dibusongmac
+
+  {
+    background: #FFFDE7;
+    background-size: cover;
+    padding-bottom: 110px;
+  }
+
+
+//不知道是啥
 
 
 
@@ -84,7 +201,7 @@
 }
 
 /********************
-*****Slide effect
+*****轮播图的大坑Slide effect
 **********************/
 
 .fade {
@@ -310,7 +427,7 @@
 
 }
 .slide-text > a.btn-primary{
-    color: #FFFDE7;
+    color: #FFFDE7!important;
     cursor: pointer;
     font-weight: 400;
     font-size: 30px;
