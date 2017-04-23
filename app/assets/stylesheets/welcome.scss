@@ -7,6 +7,7 @@
 width: 100%; /*铺满*/
 height: 100%;
 background-color:  #FFFDE7;
+padding: -25px;
 }
 
 //左图 右图 左图
@@ -19,7 +20,7 @@ background-color:  #FFFDE7;
 
 .content-section-a { //图右
   border-radius: 20;//圆角
-    margin:0px -15px;//左右-15 满屏
+    margin:-15px -15px;//左右-15 满屏
     padding: 50px -15px;
    background-color: #FFFDE7;//背景色白
   }
@@ -60,8 +61,8 @@ background-color:  #FFFDE7;
     top: 20px;
   }
   .container-fluid {
-    margin-right: -15px!important;
-    margin-left:-15px!important;
+    //margin-right: -15px!important;
+    //margin-left:-15px!important;
     background-color: #FFFDE7;
     padding-left: 15px;
     padding-right: 15px;

@@ -66,6 +66,8 @@
   box-shadow: 3px 3px 0px transparent;
   transition: 0.5s;
 }
+
+
 //导航栏颜色
  .navbar-default {
      background-color: #FFFDE7;  //背景颜色
@@ -85,7 +87,7 @@
    .navbar-default .navbar-brand {
      color:#00E5FF; //字体颜色
      font-size: 30px;
-     
+
      padding: 10px 30px; //上下10px，左右15px
      line-height: 30px; //文字行高
    }
@@ -307,4 +309,16 @@
 
  .login-help{
    font-size: 12px;
+ }
+
+ //回到顶部
+ #gotop {
+   width: 29px;
+   height: 39px;
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   background: #F25F5C;
+   cursor: pointer;
+   display: none; /*默认先隐藏掉*/
  }
